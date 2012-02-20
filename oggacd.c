@@ -94,7 +94,7 @@ getlen(char *path, double *len)
 }
 
 void
-usage()
+usage(void)
 {
         fputs("usage:\n", stderr);
         fprintf(stderr, "\t%s -h\n", getprogname());
